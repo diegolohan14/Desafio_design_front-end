@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+.imagemFundo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 156px;
+    background-color: hsl(180, 29%, 50%);
+}
+body {
+    background: hsl(180, 82%, 96%);
+    Font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+:root {
+    --black: #1a1a1a;
+    --white: #fff;
+    --green: #49b293;
+}
+.filters {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.filters * {
+    display: inline-block;
+}
+.filters label {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+    border-radius: 2rem;
+    min-width: 50px;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.filters label:hover {
+    background: var(--green);
+    color: var(--white);
+}
+.anuncio {
+    width: 1040px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.anuncio ul {
+	display: inline-flex;
+	text-align: inherit;
+	width: 100%;
+	vertical-align: inherit;
+	margin: 0.8% 0;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 3px;
+    background: #FFF;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 5px 5px 5px 0 #d1d1d1;
+}
+#border {
+    border-left: 5px solid hsl(180, 29%, 50%);
+}
+.imagem {
+    width: 88px;
+    height: 88px;
+}
+.anuncio div {
+    margin: 7px 15px;
+}
+.anuncio li {
+    margin: 5px 3px;
+}
+#div {
+    width: 250px;
+}
+.empresa, .new, .featured {
+    font-size: 12px;
+    display: inline-block;
+}
+.empresa {
+    font-weight: bold;
+    color: hsl(180, 29%, 50%);
+}
+.new {
+    padding: 4px 4px;
+    box-sizing: border-box;
+	border-radius: 30px;
+    color: white;
+    background: hsl(180, 29%, 50%);
+    
+}
+.featured {
+    color: #FFF;
+    background: #000;
+    padding: 5px 5px;
+    box-sizing: border-box;
+	border-radius: 30px;
+}
+.vaga{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.vaga:hover {
+    color: hsl(180, 29%, 50%);
+}
+#info {
+    color: hsl(180, 8%, 52%);
+    margin-top: 13px;
+}
+#especificacoes {
+    margin: 7px 0px 7px 150px;
+}
+.funcao, .nivel, .linguagem, .ferramenta {
+    margin: 3px 4px 5px 6px;
+    position: relative;
+    display: inline-flex;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 4px;
+    box-sizing: border-box;
+	border-radius: 2px;
+    color: hsl(180, 29%, 50%);
+    background: hsl(180, 82%, 96%);
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.funcao:hover, .nivel:hover, .linguagem:hover, .ferramenta:hover {
+    color: hsl(180, 82%, 96%);
+    background: hsl(180, 29%, 50%);
+}
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
