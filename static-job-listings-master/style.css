@@ -23,7 +23,7 @@ input[type="radio"] {
 }
 .filters {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 20px 155px;
 }
 .filters * {
     display: inline-block;
@@ -44,7 +44,7 @@ input[type="radio"] {
 .anuncio {
     width: 1040px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 .anuncio ul {
 	display: inline-flex;
